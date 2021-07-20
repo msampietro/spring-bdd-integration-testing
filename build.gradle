@@ -12,6 +12,7 @@ configurations {
     compileOnly {
         extendsFrom annotationProcessor
     }
+    jbehave
 }
 
 repositories {
@@ -42,5 +43,5 @@ dependencies {
 }
 
 test {
-    useJUnitPlatform()
+    useJUnit()
 }
